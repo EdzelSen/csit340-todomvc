@@ -131,9 +131,7 @@ function Todos() {
                   <button
                     type="button"
                     onClick={() => setFilter("all")}
-                    className={
-                      filter === "all" ? selectedClass : notSelectedClass
-                    }
+                    className={filter === "all" ? selectedClass : notSelectedClass}
                   >
                     All
                   </button>
